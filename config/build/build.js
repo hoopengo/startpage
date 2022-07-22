@@ -121,3 +121,23 @@ copyFile(`${basepath}/assets/main-person.jpg`, `${basepath}/dist/assets/main-per
         console.log(err)
     }
 })
+copyFile(`${basepath}/assets/favicon32.ico`, `${basepath}/dist/assets/favicon32.ico`, (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
+copyFile(`${basepath}/assets/favicon64.ico`, `${basepath}/dist/assets/favicon64.ico`, (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
+copyFile(`${basepath}/assets/favicon128.ico`, `${basepath}/dist/assets/favicon128.ico`, (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
+copyFile(`${basepath}/assets/favicon512.ico`, `${basepath}/dist/assets/favicon512.ico`, (err) => {
+    if (err) {
+        console.log(err)
+    }
+})
